@@ -1,6 +1,8 @@
-Responsive Screen jQuery plugin
+MultiSizeScreen jQuery plugin
 ===============================
 This jQuery plugin is to allow user to simulate websites in multiple types of screen.
+
+[demo](http://plnkr.co/edit/K3S8ckRmqKPvaMml9HOb?p=preview)
 
 Installation
 -------------
