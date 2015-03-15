@@ -17,11 +17,12 @@ Usage
 ------
 ### HTML only
 _Example:_
+```
 <button data-screen-size="iPhone">iPhone</button>
 <button data-screen-size="iPad">iPad</button>
 <button data-screen-size="desktop">desktop</button>
 <button data-screen-size="custom" data-screen-option='{"width": "360px", "height": "640px", "padding": "45px 0"}'>Samsung</button>
-
+```
 
 ### .multiSizeScreen(selector, [options])
 _Description:_ Trigger an selector to various screen sizes.
