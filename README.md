@@ -2,7 +2,8 @@ MultiSizeScreen jQuery plugin
 ===============================
 This jQuery plugin is to allow user to simulate websites in multiple types of screen.
 
-[demo](http://plnkr.co/edit/K3S8ckRmqKPvaMml9HOb?p=preview)
+[demo: via JavaScript](http://plnkr.co/edit/K3S8ckRmqKPvaMml9HOb)
+[demo: via data-screen and data-options](http://plnkr.co/edit/Lf99CAPZljnWM9UuaCi7)
 
 Installation
 -------------
