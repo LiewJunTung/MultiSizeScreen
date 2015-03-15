@@ -7,22 +7,26 @@
   <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="/src/css/responsive_screen.css" />
   <script src="/src/js/responsive_screen.js"></script>
-  <script src="script.js"></script>
+  <!--<script src="script.js"></script>-->
 </head>
 
 <body>
-  <main class="container">
-    <nav class="nav navbar">
-      <div id="button">
-        <button id="big-screen" class="btn btn-success">Desktop</button>
-        <button id="medium-screen" class="btn btn-primary">iPad</button>
-        <button id="small-screen" class="btn btn-info">iPhone</button>
-        <button id="custom-screen" class="btn btn-info">Samsung</button>
+    <main class="container">
+      <nav class="nav navbar">
+        <div id="button">
+          <button data-screen-size="desktop" class="btn btn-success">Desktop</button>
+          <button data-screen-size="iPad" class="btn btn-primary">iPad</button>
+          <button data-screen-size="iPhone" class="btn btn-info">iPhone</button>
+          <button data-screen-size="custom"
+                  data-screen-option='{"width": "360px",
+                                        "height": "640px",
+                                        "padding": "45px 0"}'
+                  class="btn btn-info">Samsung</button>
       </div>
     </nav>
-    <main>
-      <article id="frame">
-        <iframe id="screen" src="http://tableapp.com"></iframe>
+      <main>
+        <article id="frame">
+          <iframe id="screen" src="http://tableapp.com"></iframe>
       </article>
     </main>
   </main>

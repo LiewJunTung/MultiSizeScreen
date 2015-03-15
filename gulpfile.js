@@ -27,8 +27,8 @@ function BrowserSync(){
 	var files = [
 		'src/js/*.js',
 		'src/css/*.css',
-		'test/testing.html'
-	]
+		'index.html'
+	];
 	browserSync.init(files, {
 		server: {
 			baseDir: './'
