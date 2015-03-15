@@ -63,9 +63,6 @@ $.fn.multiSizeScreen = function (el, options) {
             var element = $(this);
             this.size = element.data('screenSize');
             this.option = element.data('screenOption');
-            if(this.option){
-                console.log(this.option);
-            }
             element.multiSizeScreen(frame, $.extend({
                 size: this.size
             }, this.option));
